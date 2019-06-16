@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registered">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorbluejens"
+        android:layout_height="150dp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/re"
+        android:layout_height="100dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailid"
+        android:paddingLeft="10dp"
+        android:background="@drawable/loginback"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:hint="Password"
+        android:id="@+id/passid"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:background="@drawable/loginback"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:hint="Conform password"
+        android:id="@+id/con"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:background="@drawable/loginback"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:text="Singup"
+        android:id="@+id/sininbutton"
+        android:background="@drawable/buttonlogin"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="If have an account then Signin"
+        android:textStyle="bold"
+        android:textColor="#130fe1"
+        android:id="@+id/sinintext"
+        android:layout_marginTop="500dp"
+        android:layout_height="40sp" />
+
+</RelativeLayout>
